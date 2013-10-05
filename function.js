@@ -303,6 +303,8 @@ $(document).ready(function() {
     var length = parseInt($('#filter-length').val());
     var results = filterWordLength(list, length);
     $('.filter-results').text(JSON.stringify(results));
+    $('.filter-string-list').click(function() {
+   $('.add-filter-string').val('');
   });
 });
 
