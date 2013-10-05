@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>	Playground</title>
+  <link rel = "stylesheet" href="./dist/css/bootstrap.css"/>
+  <link rel = "stylesheet" href="./dist/css/bootstrap-theme.css"/>
+</head>	
+	<body>
+	    <nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+   	      <a class="navbar-brand" href="#">Messing around with functions!</a>
+         </div>
+        </nav>
+	<div class = "container">
+      <div class = "row">
+      <div class = "current-page col-offset-1 col-lg-9"><h1>Reverse String</h1>
+        
+        <form>
+          <div>
+            <label>Input String</label>
+            <input type="text" class="form-control" id="reverse-input" placeholder = 'Enter text to be reversed'>
+          </div>
+          <div>
+            <label>Results</label>
+            <input type="text" class="form-control" id="reverse-output" disabled>
+          </div> 
+          <button class="execute-reverse-string btn btn-default">Reverse</button>
+          <button class="reset-reverse-string btn btn-default">Reset</button></form>
+        </div>
+                <form class="form-inline" role="form">
+  			<div class="form-group">
+              <input type="text" class="form-control" id="new-filter-string" placeholder="Add String">
+            </div>
+  			<div class="form-group">
+              <input type="number" class="form-control" id="filter-length" placeholder="Length">
+            </div>
+            <button class="add-filter-string btn btn-default">Add</button>
+          </form>
+          <ul class="filter-string-list">
+          </ul>
+          <button class="execute-filter-list btn btn-default">filter</button>
+          <div class="filter-results panel panel-default"></div>
+
+        </div>
+	  </div>
+      
+    
+      
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src = "./dist/js/bootstrap.js"></script>
+      <script src = "./function.js"></script>
+	
+	</body>
+	
+</html
